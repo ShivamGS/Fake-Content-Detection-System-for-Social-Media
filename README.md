@@ -4,7 +4,7 @@ A comprehensive system for detecting **fake text and manipulated images** on soc
 
 ## 📽️ Demo
 
-Watch the demo video here 👉 [Insert Video Link Her]
+Watch the demo video here 👉 [https://drive.google.com/file/d/1gNQrnnWag5iNafPVhE2rEZmbcoiwSf5Y/view?usp=sharing]
 
 ---
 
@@ -24,7 +24,7 @@ Watch the demo video here 👉 [Insert Video Link Her]
 The system includes:
 1. **Text detection model** (XGBoost + XLM-RoBERTa)
 2. **Image manipulation detection** (CNN)
-3. **Multilingual classification**
+3. **Multilingual classification**   
 4. **Fact-checking layer** using APIs
 5. **User feedback loop** to retrain models dynamically
 6. **Frontend interface** for user interaction and feedback submission
@@ -68,6 +68,7 @@ The system includes:
 
 ## 📁 Project Structure
 
+```
 ├── app/ # Flask app files and routes
 ├── models/ # Trained model files
 ├── static/ # Static assets (CSS, JS, images)
@@ -76,8 +77,7 @@ The system includes:
 ├── utils/ # Helper scripts
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview
-
-
+```
 ---
 
 ## 🔄 Future Enhancements
@@ -95,7 +95,8 @@ The system includes:
 
 1. **Clone this repo**  
    ```bash
-   git clone https://github.com/yourusername/fake-content-detection.git
+   git clone https://github.com/ShivamGS/Fake-Content-Detection-System-for-Social-Media.git
+   
    cd fake-content-detection
    ```
 2. **Install dependencies**  
